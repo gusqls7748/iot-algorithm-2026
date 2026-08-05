@@ -9,4 +9,5 @@
   <Project Path="app04/app04.vcxproj" Id="fac9e7c8-f0be-46e3-baaf-de29e1b546ec" />
   <Project Path="app05/app05.vcxproj" Id="8b891ddc-d454-4a60-87ff-7b62cbbe82cc" />
   <Project Path="app06/app06.vcxproj" Id="210448fb-de1f-4d13-a58c-1f799317e80e" />
+  <Project Path="ref03/ref03.vcxproj" Id="7aac7d6c-5cea-4796-834b-96409b386bb1" />
 </Solution>

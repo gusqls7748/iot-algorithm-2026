@@ -3,11 +3,17 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="sol05-04-pre/sol05-04-pre.vcxproj" />
-  <Project Path="sol05-04/sol05-04.vcxproj" />
-  <Project Path="sol05-4-04/sol05-4-04.vcxproj" />
-  <Project Path="sol06-03-09/sol06-03-09.vcxproj" />
-  <Project Path="sol06-4-12/sol06-4-12.vcxproj" />
-  <Project Path="sol14-5-14/sol14-5-14.vcxproj" />
-  <Project Path="solution06-3-08/solution06-3-08.vcxproj" />
+  <Project Path="sol05-04-pre/sol05-04-pre.vcxproj" Id="ef8a198f-e4c7-4b8c-bce2-8c79752a27d0" />
+  <Project Path="sol05-04/sol05-04.vcxproj" Id="7a5b55ce-f5a6-4c06-a914-0c2c19e10be1" />
+  <Project Path="sol05-4-04/sol05-4-04.vcxproj" Id="12ba2f22-4658-4de0-9125-e587fff9a451" />
+  <Project Path="sol06-03-09/sol06-03-09.vcxproj" Id="f8cb3d19-ea73-43de-9a9e-fb9526a398bb" />
+  <Project Path="sol06-4-12/sol06-4-12.vcxproj" Id="787ea41d-7600-419a-a136-87e45c992e73" />
+  <Project Path="sol07-2-15/sol07-2-15.vcxproj" Id="760f764e-4da8-4c8d-aee7-a439b88f13e2" />
+  <Project Path="sol07-3-16/sol07-3-16.vcxproj" Id="fc1fc283-28c8-4a59-a531-cf6ce84533f7" />
+  <Project Path="sol08-5-20/sol08-5-20.vcxproj" Id="334f58b9-697e-40a7-a7c9-ba2859ff468e" />
+  <Project Path="sol08-5-27/sol08-5-27.vcxproj" Id="43dce1bb-0677-4ffb-ba38-dcbfa61a7407" />
+  <Project Path="sol09-4-28/sol09-4-28.vcxproj" Id="1f74b5f3-92a2-4f85-a300-0d493b07384a" />
+  <Project Path="sol14-4-14/sol14-4-14.vcxproj" Id="36ab02c1-8797-4d59-8b87-b74c08f0fa65" />
+  <Project Path="sol14-5-14/sol14-5-14.vcxproj" Id="7a14f1ed-5e68-473f-a0f2-4b0adceeaecb" />
+  <Project Path="solution06-3-08/solution06-3-08.vcxproj" Id="b111b09a-22d6-4d29-bb6e-f0067137d4ae" />
 </Solution>

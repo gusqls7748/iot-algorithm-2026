@@ -4,6 +4,7 @@
 #include <iostream>
 #include <vector>
 #include <stack>
+#include <string>
 
 using namespace std;
 
@@ -16,8 +17,35 @@ string solution(int n, int k, vector<string> cmd) {
 
     // 임시공간 포함한 위치 인덱스 초기화
     for (int i = 0; i < n + 2; i++) {
-        up.push_back(i - 1);
-        down.push_back(i + 1);
+        // 삭제 명령어면
+        if (cmd[i][0] == 'C') { // 삭제 명령처리
+
+        }
+        else if (cmd[i][0] == 'Z') {// 복구 명령처리
+
+        }
+        else { // D, U 시작하는 명령처리
+            int sz = stoi(cmd[i].substr(2));    //"D 2", "U 3", "D 4"
+
+            if (cmd[i][0] == 'U') { // U -> 위로 이동
+            
+            }
+            else if (cmd[i][0] == 'D') {// D -> 아래로 이동
+                for (int j = 0; j < sz; j++) {
+                    k = down[k]; // k가 2일때 가상환경 떄문 1 추가, 2만큼 반복하면 k = 5
+                }
+
+            }
+
+        }
+    }
+
+    // 삭제된 행의 위치에 'X' 표시, 그 외는 '0' 표시하는 문자열
+    answer.append(n, '0');
+    while (!delete.empty()) {
+        // delted.top()들어있는 값은 가상공간을 늘려고 인덱스가 증가된 상태기 때문에
+        // -1을 해야 실제 인덱스로 바뀜
+        answer[delete]
     }
 
     k++;

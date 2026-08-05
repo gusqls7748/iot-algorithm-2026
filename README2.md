@@ -226,7 +226,30 @@ https://school.programmers.co.kr/learn/courses/30/lessons/81303?language=cpp
 
 - C(삭제) 시 up[down[k]] = up[k], down[up[k]] = down[k] 로 변경 필요
 - 삭제한 요소 스택에 push()
+- Z(복구) 시 restore(복구할 인덱스) -> up[down[restore]] down[up[restore]] 복구
+- 복구할 요서 스택에서 pop()
+- C++ STL 스택과 다른 언어의 스택과 차이점
 
+#### 모의테스트
+
+카드뭉치 - [소스](./advanced/algorithm02/sol07-3-16/sol07-3-16.cpp)
+
+
+- cards1, cards2, goal을 모두 큐로 생성
+- 일치하는 값이 있을 때 pop()
+- 반복 완료 후 goal에 데이터가 없으면 "YES"
+
+## 해시
+
+키와 값의 쌍으로 저장후 빠른 데이터 검색을 제공하는 자료구조, 딕셔너리, Json...
+  - 해시 : 데이터를 빠르게 찾기 위한 기술
+  - `딕셔너리`: 키(Key)값(value)로 저장하는 자료구조. 해시 테이블로 구현되어 있음
+
+## 해시 함수
+
+키에 대한 인덱스를 구하는 함수
+  - 나눗셈법 : X% k
+  - 곱셈법 : `나눗셈법`에 특수값 곱하는
 
 
 ### 코딩 테스트 저자의 글
