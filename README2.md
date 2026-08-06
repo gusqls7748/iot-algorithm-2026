@@ -235,6 +235,7 @@ https://school.programmers.co.kr/learn/courses/30/lessons/81303?language=cpp
 카드뭉치 - [소스](./advanced/algorithm02/sol07-3-16/sol07-3-16.cpp)
 
 
+
 - cards1, cards2, goal을 모두 큐로 생성
 - 일치하는 값이 있을 때 pop()
 - 반복 완료 후 goal에 데이터가 없으면 "YES"
@@ -251,6 +252,18 @@ https://school.programmers.co.kr/learn/courses/30/lessons/81303?language=cpp
   - 나눗셈법 : X% k
   - 곱셈법 : `나눗셈법`에 특수값 곱하는
 
+### 그래프 구현방법
+
+- 인접 행렬: 2차원 배열로 간선정보(연결여부, 가중치)를 담아서 사용
+- 인접 리스트 : 배열과 연결 리스트(정점v, 가중치w 쌍)조합 계속 연결
+
+#### 그래프 탐색
+
+그래프를 사용하는 이유 탐색
+
+- 깊이 우선 탐색(DES) - 스택, 재귀호출 > 모든 가능한 답을 찾는 백트래킹
+- 너비 우선 탐색(BFS) - 큐 > 최단 경로
+ 
 
 ### 코딩 테스트 저자의 글
 
